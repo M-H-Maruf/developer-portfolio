@@ -1,6 +1,7 @@
 /* common shared styles */
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f3f4ff;
 }
 .text-primary {
   color: #2b60de;
@@ -19,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 10px 10px 200px;
 }
 .nav-title {
   color: #181818;
@@ -38,4 +40,20 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* banner related styles */
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.btn-contact {
+  background-color: white;
+  border: 3px solid #2b60de;
+  color: #2b60de;
+  padding: 15px 35px;
+}
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
